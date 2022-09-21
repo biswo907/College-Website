@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Certificate & Online Programms For 2021</h1>
+    </section>
+    <!----------------------------------- Blog Page Content---------------------------------------------->
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images/certificate.jpg" alt="" />
+          <h2>Our Certificate & Online Programms For 2021</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+            dolorem quis sed rem nihil totam, voluptatum labore odit nesciunt
+            pariatur, sit dolores assumenda in maxime magnam at earum eaque
+            sequi. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Magnam voluptate doloremque, quis ad facilis reprehenderit, placeat
+            mollitia necessitatibus suscipit deleniti maiores recusandae! Qui
+            suscipit, corrupti nam aperiam repellendus modi tempora.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad sequi
+            iste, quis praesentium corporis sed nihil consectetur qui eligendi
+            nemo illum odio sunt nam, libero doloribus quae. At, libero dolorum.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            repudiandae aspernatur fuga architecto suscipit modi laborum facilis
+            consequuntur eveniet numquam provident, corporis inventore nulla
+            nam? Voluptatibus quae aut doloribus sequi!
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+            architecto modi quod provident. Labore ipsa fugit illum, cum soluta
+            blanditiis incidunt. Voluptate minus, aliquid ratione impedit
+            eligendi explicabo autem porro.
+          </p>
+
+          <div class="comment-box">
+            <h3>Leave a Comment</h3>
+            <form action="" class="comment-form">
+              <input type="text" placeholder="Enter Name" />
+              <input type="email" placeholder="Enter Email" />
+              <textarea rows="5" placeholder="Your Comment"></textarea>
+              <button type="submit" class="hero-btn red-btn">
+                Post a Comment
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="blog-right">
+          <h3>Post Catrgories</h3>
+          <div>
+            <span>Business Analytics</span>
+            <span>49</span>
+          </div>
+          <div>
+            <span>Data Science</span>
+            <span>35</span>
+          </div>
+          <div>
+            <span>Machine Learning</span>
+            <span>8</span>
+          </div>
+          <div>
+            <span>Computer Science</span>
+            <span>12</span>
+          </div>
+          <div>
+            <span>Web Devlopment</span>
+            <span>87</span>
+          </div>
+          <div>
+            <span>Designing</span>
+            <span>43</span>
+          </div>
+          <div>
+            <span>Software Engineear</span>
+            <span>57</span>
+          </div>
+          <div>
+            <span>Farmasist</span>
+            <span>21</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------------------------- FOOTER----------------------------------------------->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+        maiores consequatur repellendus <br />
+        itaque quisquam omnis! Blanditiis ab, architecto explicabo eaque, quam
+        facilis odio beatae iusto minima dolorum dolore dolorem obcaecati.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made <i class="fa fa-heart"></i>By ItzBiswo</p>
+    </section>
+    <!--------------------------- JAVA SCRIPT FOR TOGGLE MENU ------------------------------------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
